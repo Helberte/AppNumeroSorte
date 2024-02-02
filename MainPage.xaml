@@ -9,10 +9,11 @@
             HorizontalOptions="Center"
             Text="Número da Sorte"
             VerticalOptions="Center" />
-        <Button Text="Gerar número da Sorte" 
-                WidthRequest="250"
-                CornerRadius="35"
-                Padding="0,15"
-                Background="#00AB37" ></Button>
+        <Button
+            Padding="0,20"
+            Background="#00AB37"
+            CornerRadius="35"
+            Text="Gerar número da Sorte"
+            WidthRequest="250" />
     </VerticalStackLayout>
 </ContentPage>
