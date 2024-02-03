@@ -8,12 +8,8 @@
         <Label
             HorizontalOptions="Center"
             Text="Número da Sorte"
+            TextColor="#00AB37"
             VerticalOptions="Center" />
-        <Button
-            Padding="0,20"
-            Background="#00AB37"
-            CornerRadius="35"
-            Text="Gerar número da Sorte"
-            WidthRequest="250" />
+        <Button Padding="0,20" Text="Gerar número da Sorte" />
     </VerticalStackLayout>
 </ContentPage>
