@@ -10,6 +10,6 @@
             Text="Número da Sorte"
             TextColor="#00AB37"
             VerticalOptions="Center" />
-        <Button Padding="0,20" Text="Gerar número da Sorte" />
+        <Button HorizontalOptions="Center" Text="Gerar número da Sorte" />
     </VerticalStackLayout>
 </ContentPage>
