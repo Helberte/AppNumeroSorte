@@ -3,49 +3,54 @@
     x:Class="AppNumeroSorte.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
-    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <Image Source="trevo.png" WidthRequest="75" />
-        <Label
-            Margin="0,25,0,120"
-            HorizontalOptions="Center"
-            IsVisible="false"
-            Text="Número da Sorte"
-            TextColor="#00AB37"
-            VerticalOptions="Center" />
-        <Label
-            Margin="0,20,0,0"
-            HorizontalOptions="Center"
-            Text="O número da sorte é:" />
-        <HorizontalStackLayout HorizontalOptions="Center" Spacing="20" Margin="0, 85">
+    <ScrollView>
+        <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Image Source="trevo.png" WidthRequest="75" />
             <Label
-                FontSize="24"
-                Text="01"
-                TextColor="#00AB37" />
+                Margin="0,25,0,120"
+                HorizontalOptions="Center"
+                IsVisible="false"
+                Text="Número da Sorte"
+                TextColor="#00AB37"
+                VerticalOptions="Center" />
             <Label
-                FontSize="24"
-                Text="01"
-                TextColor="#00AB37" />
+                Margin="0,20,0,0"
+                HorizontalOptions="Center"
+                Text="O número da sorte é:" />
+            <HorizontalStackLayout
+                Margin="0,85"
+                HorizontalOptions="Center"
+                Spacing="20">
+                <Label
+                    FontSize="24"
+                    Text="01"
+                    TextColor="#00AB37" />
+                <Label
+                    FontSize="24"
+                    Text="01"
+                    TextColor="#00AB37" />
+                <Label
+                    FontSize="24"
+                    Text="01"
+                    TextColor="#00AB37" />
+                <Label
+                    FontSize="24"
+                    Text="01"
+                    TextColor="#00AB37" />
+                <Label
+                    FontSize="24"
+                    Text="01"
+                    TextColor="#00AB37" />
+                <Label
+                    FontSize="24"
+                    Text="01"
+                    TextColor="#00AB37" />
+            </HorizontalStackLayout>
             <Label
-                FontSize="24"
-                Text="01"
-                TextColor="#00AB37" />
-            <Label
-                FontSize="24"
-                Text="01"
-                TextColor="#00AB37" />
-            <Label
-                FontSize="24"
-                Text="01"
-                TextColor="#00AB37" />
-            <Label
-                FontSize="24"
-                Text="01"
-                TextColor="#00AB37" />
-        </HorizontalStackLayout>
-        <Label
-            Margin="0,0,0,50"
-            HorizontalOptions="Center"
-            Text="Boa sorte!" />
-        <Button HorizontalOptions="Center" Text="Gerar número da Sorte" />
-    </VerticalStackLayout>
+                Margin="0,0,0,50"
+                HorizontalOptions="Center"
+                Text="Boa sorte!" />
+            <Button HorizontalOptions="Center" Text="Gerar número da Sorte" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
