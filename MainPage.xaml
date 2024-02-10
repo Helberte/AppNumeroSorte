@@ -19,7 +19,7 @@
         <VerticalStackLayout
             x:Name="VstContainerCenter"
             HorizontalOptions="Center"
-            IsVisible="false">
+            IsVisible="true">
             <Label
                 Margin="0,20,0,0"
                 HorizontalOptions="Center"
@@ -33,6 +33,7 @@
                     Stroke="#00ab37"
                     StrokeShape="RoundRectangle 40,0,0,40">
                     <Label
+                        x:Name="lblNumero01"
                         FontSize="24"
                         Text="01"
                         TextColor="#00AB37" />
@@ -42,6 +43,7 @@
                     Stroke="#00ab37"
                     StrokeShape="RoundRectangle 40,0,0,40">
                     <Label
+                        x:Name="lblNumero02"
                         FontSize="24"
                         Text="01"
                         TextColor="#00AB37" />
@@ -51,6 +53,7 @@
                     Stroke="#00ab37"
                     StrokeShape="RoundRectangle 40,0,0,40">
                     <Label
+                        x:Name="lblNumero03"
                         FontSize="24"
                         Text="01"
                         TextColor="#00AB37" />
@@ -60,6 +63,7 @@
                     Stroke="#00ab37"
                     StrokeShape="RoundRectangle 40,0,0,40">
                     <Label
+                        x:Name="lblNumero04"
                         FontSize="24"
                         Text="01"
                         TextColor="#00AB37" />
@@ -69,6 +73,7 @@
                     Stroke="#00ab37"
                     StrokeShape="RoundRectangle 40,0,0,40">
                     <Label
+                        x:Name="lblNumero05"
                         FontSize="24"
                         Text="01"
                         TextColor="#00AB37" />
@@ -78,6 +83,7 @@
                     Stroke="#00ab37"
                     StrokeShape="RoundRectangle 40,0,0,40">
                     <Label
+                        x:Name="lblNumero06"
                         FontSize="24"
                         Text="01"
                         TextColor="#00AB37" />
