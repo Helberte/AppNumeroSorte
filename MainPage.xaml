@@ -35,7 +35,7 @@
                     <Label
                         x:Name="lblNumero01"
                         FontSize="24"
-                        Text="01"
+                        Text=""
                         TextColor="#00AB37" />
                 </Border>
                 <Border
@@ -45,7 +45,7 @@
                     <Label
                         x:Name="lblNumero02"
                         FontSize="24"
-                        Text="01"
+                        Text=""
                         TextColor="#00AB37" />
                 </Border>
                 <Border
@@ -55,7 +55,7 @@
                     <Label
                         x:Name="lblNumero03"
                         FontSize="24"
-                        Text="01"
+                        Text=""
                         TextColor="#00AB37" />
                 </Border>
                 <Border
@@ -65,7 +65,7 @@
                     <Label
                         x:Name="lblNumero04"
                         FontSize="24"
-                        Text="01"
+                        Text=""
                         TextColor="#00AB37" />
                 </Border>
                 <Border
@@ -75,7 +75,7 @@
                     <Label
                         x:Name="lblNumero05"
                         FontSize="24"
-                        Text="01"
+                        Text=""
                         TextColor="#00AB37" />
                 </Border>
                 <Border
@@ -85,7 +85,7 @@
                     <Label
                         x:Name="lblNumero06"
                         FontSize="24"
-                        Text="01"
+                        Text=""
                         TextColor="#00AB37" />
                 </Border>
             </HorizontalStackLayout>
