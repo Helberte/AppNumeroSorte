@@ -19,7 +19,7 @@
         <VerticalStackLayout
             x:Name="VstContainerCenter"
             HorizontalOptions="Center"
-            IsVisible="true">
+            IsVisible="false">
             <Label
                 Margin="0,20,0,0"
                 HorizontalOptions="Center"
@@ -95,6 +95,9 @@
                 Text="Boa sorte!" />
         </VerticalStackLayout>
 
-        <Button HorizontalOptions="Center" Text="Gerar número da Sorte" />
+        <Button
+            Clicked="OnGenerateLuckNumber"
+            HorizontalOptions="Center"
+            Text="Gerar número da Sorte" />
     </VerticalStackLayout>
 </ContentPage>
