@@ -16,7 +16,6 @@
                 Text="Número da sorte"
                 TextColor="#00ab37"
                 VerticalOptions="Center" />
-
             <VerticalStackLayout x:Name="VstContainerCenter" IsVisible="false">
                 <Label
                     Margin="0,20,0,0"
@@ -92,7 +91,6 @@
                     HorizontalOptions="Center"
                     Text="Boa sorte!" />
             </VerticalStackLayout>
-
             <Button
                 Clicked="OnGenerateLuckNumber"
                 HorizontalOptions="Center"

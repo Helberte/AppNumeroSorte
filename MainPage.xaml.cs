@@ -12,10 +12,11 @@ public partial class MainPage : ContentPage
 		LblNameApp.IsVisible = false;
 		VstContainerCenter.IsVisible = true;
 
-		GenerateLuckNumbers();
+		//GenerateLuckNumbers01();
+        GenerateLuckNumbers02();
     }
 
-	private void GenerateLuckNumbers()
+	private void GenerateLuckNumbers01()
 	{
 		Random random	  = new();
 		List<int> numbers = [];
@@ -41,5 +42,23 @@ public partial class MainPage : ContentPage
         lblNumero04.Text = numbers[3].ToString("D2");
         lblNumero05.Text = numbers[4].ToString("D2");
         lblNumero06.Text = numbers[5].ToString("D2");
+    }
+
+    private void GenerateLuckNumbers02()
+    {
+        Random random = new();
+
+        // o sortedset já deixa a lista ordenada e não deixa repetir elemento
+        SortedSet<int> numbers = [];
+                
+        while (numbers.Count < 7)       
+            numbers.Add(random.Next(1, 60));      
+
+        lblNumero01.Text = numbers.ElementAt(0).ToString("D2");
+        lblNumero02.Text = numbers.ElementAt(1).ToString().PadLeft(2, '0');
+        lblNumero03.Text = numbers.ElementAt(2).ToString().PadLeft(2, '0');
+        lblNumero04.Text = numbers.ElementAt(3).ToString("D2");
+        lblNumero05.Text = numbers.ElementAt(4).ToString("D2");
+        lblNumero06.Text = numbers.ElementAt(5).ToString("D2");
     }
 }
