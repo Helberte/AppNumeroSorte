@@ -16,6 +16,12 @@ public partial class MainPage : ContentPage
         GenerateLuckNumbers02();
     }
 
+    /// <summary>
+    /// Gera numeros aleatorios e os ordena usando linq,
+    /// não os deixa repetir na lista utilizando lógica de 
+    /// programação.
+    /// </summary>
+    /// <remarks>Helberte Costa</remarks>
 	private void GenerateLuckNumbers01()
 	{
 		Random random	  = new();
@@ -44,6 +50,12 @@ public partial class MainPage : ContentPage
         lblNumero06.Text = numbers[5].ToString("D2");
     }
 
+    /// <summary>
+    /// Gera numeros aleatorios e os ordena não deixando repetir
+    /// nenhum número utilizando a classe SortedSet
+    /// programação.
+    /// </summary>
+    /// <remarks>Helberte Costa</remarks>
     private void GenerateLuckNumbers02()
     {
         Random random = new();
